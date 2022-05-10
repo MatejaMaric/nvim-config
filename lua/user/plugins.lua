@@ -45,7 +45,7 @@ return packer.startup(function(use)
   use "wbthomason/packer.nvim" -- Have packer manage itself
 
   -- Gruvbox
-  use "ellisonleao/gruvbox.nvim"
+  use "morhetz/gruvbox.nvim"
 
   -- cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
