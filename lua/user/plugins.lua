@@ -44,8 +44,9 @@ return packer.startup(function(use)
   -- Packer
   use "wbthomason/packer.nvim" -- Have packer manage itself
 
-  -- Gruvbox
-  use "morhetz/gruvbox.nvim"
+  -- Colorschemes
+  use "ellisonleao/gruvbox.nvim"
+  use "Mofiqul/vscode.nvim"
 
   -- cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
