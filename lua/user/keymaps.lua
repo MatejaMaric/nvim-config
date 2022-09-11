@@ -69,3 +69,6 @@ keymap("n", "<leader>e", ":NvimTreeToggle<cr>", opts)
 
 keymap("n", "<leader>g", "<cmd>Telescope find_files<cr>", opts)
 keymap("n", "<leader>G", "<cmd>Telescope live_grep<cr>", opts)
+
+-- Paste in visual mode without replacing content of the registar
+keymap("x", "<leader>p", '"_dP', opts)
