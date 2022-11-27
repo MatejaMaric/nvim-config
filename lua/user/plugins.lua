@@ -63,6 +63,8 @@ return packer.startup(function(use)
   -- LSP
   use "neovim/nvim-lspconfig" -- enable LSP
   use "williamboman/nvim-lsp-installer" -- simple to use language server installer
+  use "williamboman/mason.nvim" -- new version of nvim-lsp-installer
+  use "williamboman/mason-lspconfig.nvim" -- needed by mason.nvim
   use { "jose-elias-alvarez/null-ls.nvim", requires = "nvim-lua/plenary.nvim" } -- for formatters and linters
 
   -- Telescope
